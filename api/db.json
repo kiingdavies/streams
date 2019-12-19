@@ -4,6 +4,24 @@
       "title": "My Stream",
       "description": "This is a great stream",
       "id": 1
+    },
+    {
+      "title": "I Created this stream",
+      "description": "This was made by me",
+      "userId": "114683754727744532013",
+      "id": 2
+    },
+    {
+      "title": "unexpected behavior",
+      "description": "i never expered it",
+      "userId": "114683754727744532013",
+      "id": 3
+    },
+    {
+      "title": "Programmatic nav",
+      "description": "you shouldnt see this after i submit",
+      "userId": "114683754727744532013",
+      "id": 4
     }
   ]
 }
