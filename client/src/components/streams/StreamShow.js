@@ -19,7 +19,10 @@ class StreamShow extends React.Component {
     //this re-renders the app when the component is called successfully
     this.buildPlayer();
   }
-  
+
+  componentWillUnmount() {
+    this.player.destroy();
+  }
   buildPlayer() {
     //helper method to take care of the initial screen load
     if (this.player || !this.props.stream) {
